@@ -1,4 +1,6 @@
 ;; This is the Windows .emacs file. The WSL emacs file references this one, so that all Emacs on the system run the same way
+;; This file should be stored in c:/Users/<username>/AppData/Roaming/ as filename .emacs
+
 (setq PWSH 'c:/Windows/System32/WindowsPowerShell/v1.0)
 (menu-bar-mode 0)
 (tool-bar-mode 0)
