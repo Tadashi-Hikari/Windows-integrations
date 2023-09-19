@@ -22,3 +22,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+; :height 120 = 12pt font
+(set-face-attribute 'default nil
+:family "Ubuntu"
+:height 120)
